@@ -9,4 +9,8 @@ export default class Endereco {
         this.bairro = bairro
         this.cidade = cidade
     }
+
+    toString(): string {
+        return `${this.rua}, ${this.numero} - ${this.bairro}, ${this.cidade}`;
+    }
 }
